@@ -1,9 +1,9 @@
 //
 //  WeatherManager.swift
-//  Clima
+//  GeoWeather
 //
 //  Created by Makwan BK on 3/17/20.
-//  Copyright © 2020 App Brewery. All rights reserved.
+//  Copyright © 2020 Makwan BK. All rights reserved.
 //
 
 import Foundation
