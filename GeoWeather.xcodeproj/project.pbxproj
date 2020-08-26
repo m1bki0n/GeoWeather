@@ -49,7 +49,7 @@
 			isa = PBXGroup;
 			children = (
 				ADAA27CD231BC87F00365194 /* README.md */,
-				ADAA27AF231BBFAF00365194 /* Clima */,
+				ADAA27AF231BBFAF00365194 /* GeoWeather */,
 				ADAA27AE231BBFAF00365194 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -62,7 +62,7 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		ADAA27AF231BBFAF00365194 /* Clima */ = {
+		ADAA27AF231BBFAF00365194 /* GeoWeather */ = {
 			isa = PBXGroup;
 			children = (
 				ADAA27B0231BBFAF00365194 /* AppDelegate.swift */,
@@ -74,7 +74,7 @@
 				ADAA27BB231BBFB300365194 /* LaunchScreen.storyboard */,
 				ADAA27BE231BBFB300365194 /* Info.plist */,
 			);
-			path = Clima;
+			path = GeoWeather;
 			sourceTree = "<group>";
 		};
 		ADAA27C8231BC3E500365194 /* Controller */ = {
