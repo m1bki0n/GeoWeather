@@ -23,7 +23,7 @@
 		99A408852422BC260034983E /* WeatherData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherData.swift; sourceTree = "<group>"; };
 		99CEE6892423F10200AD6F45 /* WeatherModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherModel.swift; sourceTree = "<group>"; };
 		99F3716024216B0D00ACA619 /* WeatherManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherManager.swift; sourceTree = "<group>"; };
-		ADAA27AD231BBFAF00365194 /* Clima.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Clima.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ADAA27AD231BBFAF00365194 /* GeoWeather.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GeoWeather.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ADAA27B0231BBFAF00365194 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		ADAA27B2231BBFAF00365194 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		ADAA27B4231BBFAF00365194 /* WeatherViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherViewController.swift; sourceTree = "<group>"; };
@@ -57,7 +57,7 @@
 		ADAA27AE231BBFAF00365194 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				ADAA27AD231BBFAF00365194 /* Clima.app */,
+				ADAA27AD231BBFAF00365194 /* GeoWeather.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -106,9 +106,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		ADAA27AC231BBFAF00365194 /* Clima */ = {
+		ADAA27AC231BBFAF00365194 /* GeoWeather */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = ADAA27C1231BBFB300365194 /* Build configuration list for PBXNativeTarget "Clima" */;
+			buildConfigurationList = ADAA27C1231BBFB300365194 /* Build configuration list for PBXNativeTarget "GeoWeather" */;
 			buildPhases = (
 				ADAA27A9231BBFAF00365194 /* Sources */,
 				ADAA27AA231BBFAF00365194 /* Frameworks */,
@@ -118,11 +118,11 @@
 			);
 			dependencies = (
 			);
-			name = Clima;
+			name = GeoWeather;
 			packageProductDependencies = (
 			);
 			productName = Clima;
-			productReference = ADAA27AD231BBFAF00365194 /* Clima.app */;
+			productReference = ADAA27AD231BBFAF00365194 /* GeoWeather.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -140,7 +140,7 @@
 					};
 				};
 			};
-			buildConfigurationList = ADAA27A8231BBFAF00365194 /* Build configuration list for PBXProject "Clima" */;
+			buildConfigurationList = ADAA27A8231BBFAF00365194 /* Build configuration list for PBXProject "GeoWeather" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -155,7 +155,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				ADAA27AC231BBFAF00365194 /* Clima */,
+				ADAA27AC231BBFAF00365194 /* GeoWeather */,
 			);
 		};
 /* End PBXProject section */
@@ -335,7 +335,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = net.kitn.Clima;
+				PRODUCT_BUNDLE_IDENTIFIER = com.makwanbk.Clima;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -353,7 +353,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = net.kitn.Clima;
+				PRODUCT_BUNDLE_IDENTIFIER = com.makwanbk.Clima;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -363,7 +363,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		ADAA27A8231BBFAF00365194 /* Build configuration list for PBXProject "Clima" */ = {
+		ADAA27A8231BBFAF00365194 /* Build configuration list for PBXProject "GeoWeather" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				ADAA27BF231BBFB300365194 /* Debug */,
@@ -372,7 +372,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		ADAA27C1231BBFB300365194 /* Build configuration list for PBXNativeTarget "Clima" */ = {
+		ADAA27C1231BBFB300365194 /* Build configuration list for PBXNativeTarget "GeoWeather" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				ADAA27C2231BBFB300365194 /* Debug */,
