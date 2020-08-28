@@ -1,6 +1,6 @@
-#  Clima
+#  GeoWeather
 
-Clima is a simple weather app that lets you know about weather condition of your current location or anywhere.
+GeoWeather is a simple weather app that lets you know about weather condition of your current location or anywhere.
 
 <img src="Documentation/1.png" align="center" width="30%"></img>
 <img src="Documentation/2.png" align="center" width="30%"></img>
